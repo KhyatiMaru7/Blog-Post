@@ -1,0 +1,41 @@
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.page-btn {
+  height: 40px;
+  width: 100px;
+  color: #fff;
+  border-radius: 6px;
+  background-color: #2b54dd;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.page-btn:disabled {
+  background-color:#2b54dd;
+  cursor: not-allowed;
+}
+
+
+.page-info {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.page-select {
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  cursor: pointer;
+  
+}

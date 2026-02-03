@@ -1,0 +1,23 @@
+.app-wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+.content{
+    flex: 1;
+}
+
+
+/* Light Mode */
+.container-home.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Dark Mode */
+  .container-home.dark {
+    background-color: black;
+    color: #ffffff;
+  }
+  

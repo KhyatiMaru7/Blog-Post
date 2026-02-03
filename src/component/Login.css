@@ -1,0 +1,92 @@
+/* Main div */
+.login-container{
+    display: flex;
+    height: 100vh;
+    font-family: Arial,  sans-serif;
+}
+
+/* left side */
+
+.login-left{
+    flex: 1;
+    background-color: rgb(62, 62, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-left img{
+    width: 80%;
+    height: 80%;
+   
+}
+
+/* Right side */
+
+.login-right{
+    flex: 1;
+    background-color:whitesmoke; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-right h2,
+.login-right .subtitle,
+.input-field,
+.btn{
+    width: 100%;
+    max-width: 380px;
+}
+
+/* Headings */
+.login-right h2{
+    font-size: 32px;
+    margin-bottom: 8px;
+    text-align:center;
+}
+
+.subtitle{
+    color: darkslategrey;
+    margin-bottom: 30px;
+    text-align:center;
+    
+}
+
+/* INPUTS */
+
+.input-field{
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-field:focus{
+    border-color: rgb(12, 3, 131);
+}
+
+.btn{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.primary{
+    background-color: rgb(6, 6, 110);
+    color: white;
+}
+
+.secondary{
+    background-color: rgb(56, 84, 243);
+    color: white;
+}
